@@ -34,7 +34,7 @@ def predict_audio(file_path):
     return None
 
 # Example usage
-test_file = "/home/jatin/Documents/PyCharm/Logging_activities_detector/dataset/woodcutting/543528__shneak__wood-being-cut.mp3"  # change to your test file
+test_file = "/home/jatin/Documents/PyCharm/Logging_activities_detector/dataset/nature/1-137-A-32.wav"  # change to your test file
 if os.path.exists(test_file):
     print("Prediction:", predict_audio(test_file))
 else:
